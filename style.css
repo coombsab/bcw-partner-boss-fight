@@ -1,0 +1,32 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1514539079130-25950c84af65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2369&q=80);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.char-info {
+  display: flex;
+}
+
+.option-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  border: 0.5rem solid purple;
+  border-radius: 0.5rem;
+}
+
+.reset {
+  max-height: 5vh;
+  align-self: flex-end;
+}
+
+.boss-avatar:hover {
+  cursor: pointer;
+  user-select: none;
+  /* NOTE make a sword to fight with, instead of pointer */
+}
